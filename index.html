@@ -22,7 +22,7 @@
                 ['Alimentação',260]
             ]);
 
-            var grafico = new google.visualization.PieChart(document.getElementById('graficoPizza'));
+            var grafico = new google.visualization.BarChart(document.getElementById('graficoBarra'));
             grafico.draw(tabela);
     }
 
@@ -32,6 +32,6 @@
     </script>
 </head>
 <body>
-    <div id="graficoPizza"></div>
+    <div id="graficoBarra"></div>
 </body>
 </html>
