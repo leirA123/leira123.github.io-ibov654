@@ -1,12 +1,5 @@
 <html>
 <head>
-    <script type="module">
-
-import {line} from "https://cdn.skypack.dev/d3-shape@3";
-
-const l = line();
-
-</script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
     <script>
@@ -14,7 +7,7 @@ const l = line();
 
         google.charts.load('current', {'packages':['corechart']});
 
-        function desenharPizza (){
+        function desenharLinha (){
 
            var d3 = d3 || {};
         (function() {
@@ -14390,7 +14383,7 @@ const l = line();
             grafico.draw(tabela);
     }
 
-    google.charts.setOnLoadCallback(desenharPizza);
+    google.charts.setOnLoadCallback(desenharLinha);
 
 
     </script>
